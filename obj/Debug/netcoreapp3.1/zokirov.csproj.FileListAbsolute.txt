@@ -1,0 +1,13 @@
+C:\projects\bin\Debug\netcoreapp3.1\zokirov.exe
+C:\projects\bin\Debug\netcoreapp3.1\zokirov.deps.json
+C:\projects\bin\Debug\netcoreapp3.1\zokirov.runtimeconfig.json
+C:\projects\bin\Debug\netcoreapp3.1\zokirov.runtimeconfig.dev.json
+C:\projects\bin\Debug\netcoreapp3.1\zokirov.dll
+C:\projects\bin\Debug\netcoreapp3.1\zokirov.pdb
+C:\projects\obj\Debug\netcoreapp3.1\zokirov.csprojAssemblyReference.cache
+C:\projects\obj\Debug\netcoreapp3.1\zokirov.csproj.CoreCompileInputs.cache
+C:\projects\obj\Debug\netcoreapp3.1\zokirov.AssemblyInfoInputs.cache
+C:\projects\obj\Debug\netcoreapp3.1\zokirov.AssemblyInfo.cs
+C:\projects\obj\Debug\netcoreapp3.1\zokirov.dll
+C:\projects\obj\Debug\netcoreapp3.1\zokirov.pdb
+C:\projects\obj\Debug\netcoreapp3.1\zokirov.genruntimeconfig.cache
