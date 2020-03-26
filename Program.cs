@@ -46,11 +46,11 @@ namespace zokirov
         //  Console.WriteLine("введите число:   ");
 
         //  operand2=int.Parse(Console.ReadLine());
-        //  Console.WriteLine("Выбор +, - , * , /");
+        // Console.WriteLine("Выбор +, - , * , /");
 
         //  sing=Console.ReadLine();
         //  switch(sing)
-        //  {
+        //   {
         //      case"+":Console.WriteLine(operand1+operand2);
         //      break;
         //      case "-": Console.WriteLine(operand1-operand2);
@@ -58,11 +58,19 @@ namespace zokirov
         //      case"*": Console.WriteLine(operand1*operand2);
         //      break;
         //      case "/": 
-        //      if (operand1==0&&operand2==0)
+        //      if (operand1==0)
         //      {
         //          Console.WriteLine("ошибка");
         //          break;
         //      }
+        //      if (operand2==0)
+        //      {
+        //          Console.WriteLine("ошибка");
+        //          break;
+
+        //      }
+             
+        
         //      else 
         //      {
         //          Console.WriteLine(operand1/operand2);
@@ -73,7 +81,7 @@ namespace zokirov
         //  }
              
              
-        //  Console.ReadKey();
+         
         
         Console.WriteLine("Выберите 1 то 100");
           double num = double.Parse(Console.ReadLine());
@@ -95,6 +103,9 @@ namespace zokirov
          if (num>=51 && num<=100)
          {
              Console.WriteLine("[51-100]");
+         }
+         else {
+             Console.WriteLine("Нет такого числа");
          }
          Console.ReadLine();
 
