@@ -6,28 +6,29 @@ namespace zokirov
     {
         static void Main(string[] args)
         {
-        //     double percent, summa;
-        //     summa=Convert.ToDouble(Console.ReadLine());
-        //     if (summa>=500&&summa<1000)
-        //     {
-       
-        //         percent=97*summa/100;
-        //         Console.WriteLine($"покупка с %^{percent}");
-        //     }
-        //     if (summa>=1000)
-        //     {
-        //         percent=95*summa/100;
-        //         Console.WriteLine($"покупка с %^{percent}");
-                               
+            // double percent, summa;
+            // summa=Convert.ToDouble(Console.ReadLine());
+            // if (summa>=500&&summa<1000)
+            // {
 
-        //     }
-        //     if(summa<500)
-        //     {
-        //         Console.WriteLine(summa);
-        //     }
+            //     percent=97*summa/100;
+            //     Console.WriteLine($"покупка с %^{percent}");
+            // }
+            // if (summa>=1000)
+            // {
+            //     percent=95*summa/100;
+            //     Console.WriteLine($"покупка с %^{percent}");
 
-        // }
-       // int a = 11, b = 66, c = 7, d = 9;
+
+            // }
+            // if(summa<500)
+            // {
+            //     Console.WriteLine(summa);
+            // }
+
+            // }
+
+            // int a = 11, b = 66, c = 7, d = 9;
 
             // if(a < b && b < c && c < d){
             //     Console.WriteLine("Числа расположены по возрастанию");
@@ -50,94 +51,23 @@ namespace zokirov
             //     Console.WriteLine($"Min:{d}");
             // }
 
-// int a = int.Parse(Console.ReadLine()), b = int.Parse(Console.ReadLine()), c = int.Parse(Console.ReadLine()),d,e,f;
-           
-        //     if(a < b && b < c ){
-        //         d = a;
-        //         a = c;
-        //         b = b;
-        //         c = d;
-        //         Console.WriteLine($"{a} >= {b} >= {c}");
-        //     }
-        //     else if(a > b && b > c){
-        //         Console.WriteLine($"{a} >= {b} >= {c}");
-        //     }
-        //     else if(a>b && b<c){
-        //         d = a;
-        //         e = b;
-        //         f = c;
-
-        //         a = d;
-        //         b = f;
-        //         c = e;
-        //         Console.WriteLine($"{a} >= {b} >= {c}");
-        //     }
-
-        //     else if(a < b && b > c && a < c){
-        //         d = a;
-        //         e = b;
-        //         f = c;
-
-        //         a = e;
-        //         b = f;
-        //         c = d;
-        //         Console.WriteLine($"{a} >= {b} >= {c}");
-        //     }
-        //     else if(a < b && b > c && a > c){
-        //         d = a;
-        //         e = b;
-        //         f = c;
-
-        //         a = e;
-        //         b = d;
-        //         c = f;
-        //         Console.WriteLine($"{a} >= {b} >= {c}");
-        //     }
-        //     else if(a > b && b < c && a > c){
-        //         d = a;
-        //         e = b;
-        //         f = c;
-
-        //         a = d;
-        //         b = f;
-        //         c = e;
-        //         Console.WriteLine($"{a} >= {b} >= {c}");
-        //     }
-
-        //     else if(a <= b && b < c){ 
-        //         d = a;
-        //         e = b;
-        //         f = c;
-
-        //         a = f;
-        //         b = e;
-        //         c = d;
-        //         Console.WriteLine($"{a} >= {b} >= {c}");
-        //     }
-
-        //     else if(a < b && b >= c){ 
-        //         d = a;
-        //         e = b;
-        //         f = c;
-
-        //         a = f;
-        //         b = e;
-        //         c = d;
-        //         Console.WriteLine($"{a} >= {b} >= {c}");
-        //     }
-        //     else if(a <= b && b >= c){ 
-        //         d = a;
-        //         e = b;
-        //         f = c;
-
-        //         a = f;
-        //         b = e;
-        //         c = d;
-        //         Console.WriteLine($"{a} >= {b} >= {c}");
-        //     }
-             
+            int a = 2, b = 4, c = 2, d = a, e = a, f = a;
+            d = a > b && a > c ? a : d;
+            d = b > a && b > c ? b : d;
+            d = c > b && a < c ? c : d;
+            e = a > b && a < c || a < c && a > b ? a : e;
+            e = a < b && b < c || b > c && a > b ? b : e;
+            e = c > b && a < c || a > c && c > b ? a : e;
+            f = a < b && a < c ? a : f;
+            f = a > b && b < c ? b : f;
+            f = c < b && a > c ? c : f;
+            a = d;
+            b = e;
+            c = f;
+            System.Console.WriteLine($"a = {a} b = {b} c = {c}");
+            Console.ReadKey();
 
         }
-          
+
     }
 }
